@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./app.js"></script>
+    <title>Kyōfu no sekai</title>
+</head>
+
+<body>
+<div class="container">
+    <h1>Selecione seu personagem</h1>
+    <div>
+        <ul>
+            <li onclick="nextStage('/aiko/aikoA')" class="aiko">
+                <figure><img src="imgs/aiko.png" alt="">
+                     <figcaption>Aiko Takahashi</figcaption>
+                </figure>
+            </li>
+
+            <li onclick="nextStage('kouji/koujiA')" class="kouji">
+                <figure><img src="imgs/kouji.png" alt="">
+                     <figcaption>Kouji Tagawa</figcaption>
+                </figure>
+            </li>
+
+            <li onclick="nextStage('moriko/morikoA')" class="moriko">
+                <figure><img src="imgs/moriko.png" alt="">
+                     <figcaption>Moriko Ishii</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+
+</html>
