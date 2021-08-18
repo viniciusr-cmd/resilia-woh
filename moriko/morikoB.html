@@ -5,28 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <script src="../app.js"></script>
     <title>Kyōfu no sekai</title>
 </head>
 
 <body>
-    <h1>Você decide continuar escondida</h1>
-    <div>
+<div class="container">
+    <h1 class="title">Você decide continuar escondida</h1>
+    <div class="container border">
         <p>Você consegue ver alguns dos rostos e ouvir os nomes das pessoas reunidas.</p>
         <p>Eles falam em uma <span>LINGUA ESTRANHA</span> quase anciã, você sente calafrios enquanto escuta</p>
         <p>Ao ouvir as palavras, você fica sonolenta e cai da pedra, torcendo o pé no processo</p>
         <p>O barulho das folhagens alerta os cultistas, que começam a procurar você</p>
         <p>Uma pequena sombra se faz em sua frente</p>
-            <figure><img src="../imgs/youngwitch.png" alt="cultistwoman.png">
+            <figure><img class="img-wid" src="../imgs/youngwitch.png" alt="cultistwoman.png">
                 <figcaption>A cultista com máscara de Oni olha para você</figcaption>
             </figure>
-        <ul>
+        <ul class="resp-list">
             <li>1 - ATIRAR</li>
             <li>2 - ESPERAR</li>
             <li>3 - CORRER</li>
         </ul>
         <button onclick="pergunta('2', '1', '3', 'gameoverB')" class="selec btn">Tome uma decisão!</button>
     </div>
+</div>
 </body>
 
 </html>

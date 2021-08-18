@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <script src="../app.js"></script>
     <title>Kyōfu no sekai</title>
 </head>
 
 <body>
-    <h1>Você veste o manto e chega próximo a eles</h1>
-    <div>
+<div class="container">
+    <h1 class="title">Você veste o manto e chega próximo a eles</h1>
+    <div class="container border">
         <p>Você consegue ver alguns dos rostos e ouvir os nomes das pessoas reunidas.</p>
         <p>Eles falam em uma <span>LINGUA ESTRANHA</span> quase anciã, você sente calafrios enquanto escuta</p>
         <p>Ao ouvir as palavras, você é tomada por um ódio descomunal, mas consegue se controlar</p>
@@ -23,16 +25,17 @@
             O dono da tenda deve ter sido
             arrastado para dentro floresta.</p>
         <p>Ao se virar, você se depara com uma figura bizarra</p>
-        <figure><img src="../imgs/Leech_girl.png" alt="leechgirl.png">
+        <figure><img class="img-wid" src="../imgs/Leech_girl.png" alt="leechgirl.png">
             <figcaption>Uma figura coberta de sanguessugas corre em sua direção</figcaption>
         </figure>
-        <ul>
+        <ul class="resp-list">
             <li>1 - ATIRAR NELA</li>
             <li>2 - CORRER</li>
             <li>3 - ESPERAR</li>
         </ul>
         <button onclick="pergunta('3', '2', '1', 'gameoverD')" class="selec btn">Tome uma decisão!</button>
     </div>
+</div>
 </body>
 
 </html>

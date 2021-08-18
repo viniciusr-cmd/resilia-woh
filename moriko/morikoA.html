@@ -5,19 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <script src="../app.js"></script>
     <title>Kyōfu no sekai</title>
-    <style>
-        span {
-            color: red;
-        }
-    </style>
 </head>
 
 <body>
-    <h1>Moriko Ishii, a garota perdida</h1>
-    <h1>Você acorda numa floresta escura sem lembrar de absolutamente nada</h1>
-    <div>
+<div class="container">
+    <h1 class="title">Moriko Ishii, a garota perdida</h1>
+    <h1 class="title">Você acorda numa floresta escura sem lembrar de absolutamente nada</h1>
+    <div class="container border">
         <p>Sua roupa rasgada e ensanguentada logicamente afirma que você foi atacada
             <span>Ao seu lado, você encontra uma shotgun</span>, Você decide pegar e empunhar, mesmo que um pouco confusa
             Recuperada, você num súbito lembra que estava investigando um culto malígno
@@ -25,13 +22,14 @@
         <p>Continuando a andar pela trilha, você percebe barulhos no mato logo a sua frente, e decide se esconder numa grande pedra ao lado</p>
         <p>Você decide subir na pedra e encontra um manto, olhando para frente, avista o culto vestindo o mesmo manto que você</p>
         <p>O que deseja fazer?</p>
-        <ul>
+        <ul class="resp-list">
             <li>1 - CONTINUAR ESCONDIDA</li>
             <li>2 - VESTIR O MANTO E TENTAR CHEGAR PRÓXIMO AO CULTO</li>
             <li>3 - VESTIR O MANTO E SABOTAR O CULTO</li>
         </ul>
         <button onclick="perguntaSelec('morikoB', 'morikoC', 'morikoD')" class="selec btn">Selecione sua ação</button>
     </div>
+</div>
 </body>
 
 </html>

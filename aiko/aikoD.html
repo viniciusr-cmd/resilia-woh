@@ -5,30 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <script src="../app.js"></script>
     <title>Kyōfu no sekai</title>
 </head>
 
 <body>
-    <h1>Você decide voltar à cidade</h1>
-    <div>
+<div class="container">
+    <h1 class="title">Você decide voltar à cidade</h1>
+    <div class="border container">
         <p>Chegando perto de sua casa, começa a pensar em esquecer todo o horror vivido</p>
         <p>Casas e casas até que no fim da rua, vê-se uma figura</p>
         <p>Ao chegar mais perto, percebe-se que é uma mulher</p>
         <p>Completamente deformada, seus olhos mortos encaram você, ela salta até sua posição</p>
         <p>Você toma coragem e se vê em posição de ataque</p>
-        <figure><img src="../imgs/ghoul.jpg" alt="ghoulwoman.png">
+        <figure><img class="img-wid" src="../imgs/ghoul.jpg" alt="ghoulwoman.png">
             <figcaption>
                 Correndo até você, a mulher abre sua boca
             </figcaption>
         </figure>
-        <ul>
+        <ul class="resp-list">
             <li>1 - ATACAR</li>
             <li>2 - CORRER PARA SUA CASA</li>
             <li>3 - VOLTAR PELO CAMINHO</li>
         </ul>
         <button onclick="pergunta('3', '1', '2', 'gameoverD')" class="selec btn">Tome uma decisão!</button>
-    </div>
+</div>
+</div>
 </body>
 
 </html>

@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="./app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <title>Kyōfu no sekai</title>
 </head>
 
 <body>
 <div class="container">
-    <h1>Selecione seu personagem</h1>
-    <div>
-        <ul>
+    <h1 class="title">Selecione seu personagem</h1>
+    <div class="border container">
+        <ul class="characters">
             <li onclick="nextStage('aiko/aikoA')" class="aiko">
                 <figure><img src="imgs/aiko.png" alt="">
                      <figcaption>Aiko Takahashi</figcaption>

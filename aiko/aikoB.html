@@ -5,29 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <script src="../app.js"></script>
     <title>Kyōfu no sekai</title>
 </head>
 
 <body>
-    <h1>Você decide explorar o monólito</h1>
-    <div>
+<div class="container">
+    <h1 class="title">Você decide explorar o monólito</h1>
+    <div class="border container">
         <p>Depois de uma boa caminhada, você chega ao pico do portal, apontado para os céus</p>
         <p>um <span>FEDOR ACÍDO</span> preenche suas narinas</p>
         <p>Um grunhido incompreensível também preenche seus ouvidos e sua percepção</p>
         <p>Desde criança você houve uma lenda de uma turma perdida na praia</p>
         <p>Dizem que uma maldição pairava pelos seus corpos, que nunca foram achados</p>
         <p>Parece que você teve o terrível azar de encontrar finalmente seus corpos...</p>
-        <figure><img src="../imgs/Class_of_1971.png" alt="1971amalg.png">
+        <figure><img class="img-wid" src="../imgs/Class_of_1971.png" alt="1971amalg.png">
             <figcaption>Um amálgamo de braços surge de trás do portal, se arrastando e gritando de dor</figcaption>
         </figure>
-        <ul>
+        <ul class="resp-list">
             <li>1 - TENTAR ATACAR</li>
             <li>2 - CORRER</li>
             <li>3 - TENTAR SE ESCONDER</li>
         </ul>
         <button onclick="pergunta('3', '1', '2', 'gameoverB')" class="selec btn">Tome uma decisão!</button>
     </div>
+</div>
 </body>
 
 </html>

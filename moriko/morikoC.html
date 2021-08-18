@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <script src="../app.js"></script>
     <title>Kyōfu no sekai</title>
 </head>
 
 <body>
-    <h1>Você decide chegar no culto</h1>
-    <div>
+<div class="container">
+    <h1 class="title">Você decide chegar no culto</h1>
+    <div class="container border">
         <p>Você consegue ver alguns dos rostos e ouvir os nomes das pessoas reunidas.</p>
         <p>Eles falam em uma <span>LINGUA ESTRANHA</span> quase anciã, você sente calafrios enquanto escuta</p>
         <p>Ao ouvir as palavras, você fica sonolenta, mas consegue aguentar até o fim</p>
@@ -20,16 +22,17 @@
         <p>Você reconhece os símbolos estranhos e os conecta aos horrores que assolam sua cidade.</p>
         <p>Dentro da caverna, você tropeça em um pequeno santuário da floresta. É provavelmente
             dedicado a algum espírito local. A pequena estátua parece estranha e ameaçadora</p>
-        <figure><img src="../imgs/Small_shrine.png" alt="shrine.png">
+        <figure><img class="img-wid" src="../imgs/Small_shrine.png" alt="shrine.png">
             <figcaption>A pequena estátua olha para você</figcaption>
         </figure>
-        <ul>
+        <ul class="resp-list">
             <li>1 - FINGIR REZAR</li>
             <li>2 - DESTRUIR</li>
             <li>3 - ENCARAR A ESTATUA</li>
         </ul>
         <button onclick="pergunta('3', '2', '1', 'gameoverC')" class="selec btn">Tome uma decisão!</button>
     </div>
+</div>
 </body>
 
 </html>

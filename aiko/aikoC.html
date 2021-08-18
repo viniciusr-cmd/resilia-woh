@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <script src="../app.js"></script>
     <title>Kyōfu no sekai</title>
 </head>
 
 <body>
-    <h1>Você decide voltar às docas</h1>
-    <div>
+<div class="container">
+    <h1 class="title">Você decide voltar às docas</h1>
+    <div class="border container">
         <p>O mar calmamente ressoa embaixo de seus pés</p>
         <p>As pessoas estão tentando viver sua vida mesmo com uma aura malígna pairando sobre todos</p>
         <p>A realidade continua a se distorcer diante dos seus olhos, como um espelho estilhaçado.</p>
@@ -21,21 +23,23 @@
         <p>Um individuo ressoa calmamente 'Ele me quer ... mas acho que sou muito covarde para fazer isso sozinho ...
             V-você pode me ajudar?'</p>
         <p>Subitamente, surge em frente de você uma visão terrível</p>
-        <figure><img src="../imgs/otherworld.png" alt="otherworld.png">
-            <figcaption>Um pensamento de um pesadelo iminente...</figcaption>
-        </figure>
-        <br>
-        <figure><img src="../imgs/burningman.png" alt="burningman.png">
-            <figcaption>Num súbito frenesi, as pessoas se viram para você, em seus olhos, a cor no érebo dos céus, suas
-                peles derretem, seus corpos são tomados por um fogo azul</figcaption>
-        </figure>
-        <ul>
+        <div class="figures2">
+            <div class="image"><img src="../imgs/otherworld.png" alt="">
+                <figcaption>Um pensamento de um pesadelo iminente...</figcaption>
+            </div>
+            <div class="image"><img src="../imgs/burningman.png" alt="">
+                <figcaption>Num súbito frenesi, as pessoas se viram para você, em seus olhos, a cor no érebo dos céus, suas
+                    peles derretem, seus corpos são tomados por um fogo azul</figcaption>
+            </div>
+        </div>
+        <ul class="resp-list">
             <li>1 - TENTAR ATACAR</li>
             <li>2 - CORRER</li>
             <li>3 - TENTAR SE ESCONDER</li>
         </ul>
         <button onclick="pergunta('2', '1', '3', 'gameoverC')" class="selec btn">Tome uma decisão!</button>
     </div>
+</div>
 </body>
 
 </html>

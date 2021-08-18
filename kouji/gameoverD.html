@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../app.js">
-        function restart() {
-            location.replace("../index.html")
-        }
-    </script>
-    <title>Kyofu no Sekai</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../app.js"></script>
+    <title>Kyōfu no sekai</title>
 </head>
 <body>
-    <h1>Você o ataca e amassa seu crânio</h1>
-    <div>
+<div class="container">
+    <h1 class="title">Você o ataca e amassa seu crânio</h1>
+    <div class="container border">
         <p>Mesmo sem a máscara, era impossível distinguir o que era aquilo</p>
         <p>Você percebe um pequeno sinal escarificado em sua mão</p>
         <p>Ao olhar, sua cabeça dói, você se sente fraco</p>
@@ -27,5 +25,6 @@
         </p>
         <p>Fim de Jogo</p>
         <button onclick="restart()" class="selec btn">Recomeçar</button>
+</div>
 </body>
 </html>

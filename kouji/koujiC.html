@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <script src="../app.js"></script>
     <title>Kyōfu no sekai</title>
 </head>
 
 <body>
-    <h1>Você decide realizar o ritual</h1>
-    <div>
+<div class="container">
+    <h1 class="title">Você decide realizar o ritual</h1>
+    <div class="border container">
         <p>Com as anotações do diário de seu amigo, o único conhecimento que tens é o desenho do sigilo para parar
             Kuchisake-onna</p>
         <p>Você faz conforme as instruções do caderno. Tudo está pronto para o ritual...</p>
@@ -20,20 +22,21 @@
         <p>É Kuchisake-onna, a mulher da tesoura em sua forma mais horrorífica, destrói a porta e salta para
             dentro da sala, num súbito, está na sua frente.</p>
         
-        <figure><img src="../imgs/scissorh.png" alt="scissorwoman2.png">
+        <figure><img class="img-wid" src="../imgs/scissorh.png" alt="scissorwoman2.png">
             <figcaption>
                 Ela grunhe, O SIGILO não parece ter nenhum efeito sobre o monstro horrível. Você o fez
                 errado? Congelado de medo, você observa enquanto o horror se contrai cada vez mais perto. Ele ergue sua
                 tesoura enorme em direção a sua face.
             </figcaption>
         </figure>
-        <ul>
+        <ul class="resp-list">
             <li>1 - REDESENHAR O SIGILO</li>
             <li>2 - RÁPIDO, REALIZE O RITUAL!</li>
             <li>3 - CORRER O MAIS RÁPIDO QUE PODE</li>
         </ul>
         <button onclick="pergunta('2', '3', '1', 'gameoverC')" class="selec btn">Tome uma decisão!</button>
     </div>
+</div>
 </body>
 
 </html>
