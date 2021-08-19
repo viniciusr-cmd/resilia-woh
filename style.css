@@ -102,6 +102,20 @@ figcaption {
     background: white;
 }
 
+footer p, a {
+    font-size: 12px;
+    color: white;
+}
+
+footer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
 span {
     color: red;
 }
