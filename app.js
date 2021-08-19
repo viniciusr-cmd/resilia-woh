@@ -28,7 +28,7 @@ function restart() {
 
 function perguntaSelec(r1, r2, r3){
   resp = prompt("Selecione 1, 2 ou 3")
-
+  
   if (resp === '1') {
     location.replace(`${r1}.html`)
   }
@@ -40,6 +40,6 @@ function perguntaSelec(r1, r2, r3){
   }
 
   else {
-    alert('Por favor, Selecione 1, 2 ou 3')
+    alert('Por favor, selecione 1, 2 ou 3')
   }
 }
